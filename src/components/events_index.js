@@ -5,7 +5,7 @@ import { readEvents } from '../actions'
 
 const EventsIndex = (props) => {
 
-  useEffect((props) => {
+  useEffect(() => {
     return () => {
       props.readEvents()
     }
